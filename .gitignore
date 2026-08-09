@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+myenv/
+
+# Dataset/output directories that should not be pushed
+generated/
+processed/
+
+# Editor directories and system files
+.vscode/
+.idea/
+.DS_Store
