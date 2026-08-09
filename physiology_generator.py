@@ -729,7 +729,7 @@ for cow in range(1, NUM_COWS + 1):
 
     cow_id = f"COW_{cow:03d}"
 
-    profile = generate_cow_profiles()
+    profile = generate_cow_profile()
 
     print(f"Generating {cow_id}")
 

@@ -15,6 +15,7 @@ generated/healthy_baseline.csv
 
 import os
 import random
+from config import BASELINE_FILE
 import numpy as np
 import pandas as pd
 
