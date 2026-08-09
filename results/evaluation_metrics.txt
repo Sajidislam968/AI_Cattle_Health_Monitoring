@@ -1,11 +1,8 @@
-Evaluation Metrics
-==================
+==================================================
+XGBOOST MODEL EVALUATION
+==================================================
 
-Accuracy: 0.93
-Balanced Accuracy: 0.92
-ROC-AUC: 0.95
-Average Precision: 0.94
-Log Loss: 0.21
-Precision: 0.93
-Recall: 0.93
-F1 Score: 0.93
+Accuracy  : 0.895984
+Precision : 0.890834
+Recall    : 0.895984
+F1 Score  : 0.871467
