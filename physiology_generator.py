@@ -47,6 +47,8 @@ TIME_INTERVAL = 10      # minutes
 
 TOTAL_SAMPLES = NUM_COWS * DAYS * SAMPLES_PER_DAY
 
+HOURS = np.arange(0, 24, TIME_INTERVAL / 60)
+
 print("=" * 60)
 print("Generating Physiology Dataset V2")
 print("=" * 60)
@@ -725,14 +727,28 @@ records = []
 
 sample_id = 1
 
+
+def generate_cow_profile(cow_id):
+    return {
+        "hr_base": np.random.normal(62, 4),
+        "temp_base": np.random.normal(38.6, 0.18),
+        "rumination_base": np.random.normal(470, 30),
+        "eating_base": np.random.normal(5.6, 0.45),
+        "drinking_base": np.random.normal(15, 2),
+        "walking_base": np.random.normal(5.8, 0.7),
+        "standing_base": np.random.normal(8.2, 0.8),
+        "lying_base": np.random.normal(8.4, 0.7),
+        "activity_base": np.random.normal(72, 7),
+    }
+
+
 for cow in range(1, NUM_COWS + 1):
 
     cow_id = f"COW_{cow:03d}"
 
-    profile = generate_cow_profile()
+    profile = generate_cow_profile(cow_id)
 
     print(f"Generating {cow_id}")
-
     for day in range(1, DAYS + 1):
 
         (

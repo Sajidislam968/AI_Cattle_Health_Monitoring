@@ -15,7 +15,6 @@ import pandas as pd
 
 from config import *
 from config import PROFILE_FILE
-from generators.baseline_generator import RANDOM_SEED
 
 # -------------------------------------------------------
 # Random Seed
