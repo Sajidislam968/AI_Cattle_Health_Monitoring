@@ -77,10 +77,3 @@ temp/
 # ===================================
 .DS_Store
 Thumbs.db
-
-# Local AI / Editor
-.agents/
-.streamlit/
-
-# Backup source files
-Old_files/
