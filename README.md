@@ -142,9 +142,14 @@ The Streamlit dashboard includes
 
 
 - Live Inference
-  
+  <img width="1848" height="1007" alt="Screenshot From 2026-08-21 14-10-37" src="https://github.com/user-attachments/assets/94fbcb72-e7f4-477a-9eaa-4161c2844943" />
+
 - Cow Health Analytics
+  <img width="1770" height="816" alt="Screenshot From 2026-08-21 14-35-29" src="https://github.com/user-attachments/assets/9329a781-385e-4c71-9bb3-9bf2ea74d9f1" />
+
 - Explainable AI
+  <img width="1474" height="936" alt="Screenshot From 2026-08-21 15-01-08" src="https://github.com/user-attachments/assets/5f122afd-b5de-4933-9a63-79d3a72518c1" />
+
 - System Information
 - Sensor Monitoring
 - Final Health Prediction
