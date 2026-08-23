@@ -138,8 +138,11 @@ The system automatically generates recommendations such as
 # 📊 Dashboard
 
 The Streamlit dashboard includes
+<img width="1848" height="1007" alt="Screenshot From 2026-08-21 14-23-08" src="https://github.com/user-attachments/assets/0d81ce95-1efd-4e14-86af-01f6d3178672" />
+
 
 - Live Inference
+  
 - Cow Health Analytics
 - Explainable AI
 - System Information
