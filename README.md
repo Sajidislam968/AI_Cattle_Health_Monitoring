@@ -15,12 +15,12 @@ Early Detection of Cattle Diseases using Computer Vision, Synthetic IoT Collar S
 
 This project presents a complete **AI-powered multi-modal cattle health monitoring system** capable of detecting potential health conditions by combining:
 
-- 🐄 Computer Vision
-- 📡 Synthetic Smart Collar Sensor Data
-- 🤖 Machine Learning (XGBoost)
-- 🔍 Explainable AI (SHAP)
-- 🧠 Decision Fusion
-- 📊 Interactive Dashboard
+-  Computer Vision
+-  Synthetic Smart Collar Sensor Data
+-  Machine Learning (XGBoost)
+-  Explainable AI (SHAP)
+-  Decision Fusion
+-  Interactive Dashboard
 
 Unlike traditional approaches that rely on only image analysis or only sensor data, this system integrates both modalities to provide more reliable health assessment and explainable predictions.
 
@@ -217,36 +217,6 @@ XGBoost was selected because it provides:
 - Smooth integration with the proposed multimodal framework
 
 ---
-
-# Research Contribution
-
-✔ Multi-modal health monitoring
-
-✔ Synthetic smart collar simulation
-
-✔ YOLO11 behavior recognition
-
-✔ Explainable AI using SHAP
-
-✔ Rule-based decision fusion
-
-✔ Automatic recommendation engine
-
-✔ Interactive dashboard
-
----
-
-# Future Work
-
-- Real ESP32 smart collar deployment
-- MQTT communication
-- Thermal camera integration
-- LSTM-based temporal behavior analysis
-- Transformer-based multimodal fusion
-- Mobile application
-
----
-
 # Citation
 
 
