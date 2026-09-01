@@ -11,7 +11,7 @@ Early Detection of Cattle Diseases using Computer Vision, Synthetic IoT Collar S
 
 ---
 
-# 📖 Overview
+# Overview
 
 This project presents a complete **AI-powered multi-modal cattle health monitoring system** capable of detecting potential health conditions by combining:
 
@@ -25,7 +25,7 @@ This project presents a complete **AI-powered multi-modal cattle health monitori
 Unlike traditional approaches that rely on only image analysis or only sensor data, this system integrates both modalities to provide more reliable health assessment and explainable predictions.
 
 
-# 🚀 Key Features
+# Key Features
 
 - YOLO11-based cattle behavior recognition
 - Multi-object tracking using ByteTrack
@@ -55,7 +55,7 @@ Detected Behaviors
 
 ---
 
-# 📡 Synthetic Smart Collar Sensors
+# Synthetic Smart Collar Sensors
 
 This project simulates IoT smart collar data using literature-based physiological ranges.
 
@@ -74,7 +74,7 @@ Generated Features
 
 ---
 
-# 🤖 Machine Learning Pipeline
+# Machine Learning Pipeline
 
 ```
 Sensor Features
@@ -93,7 +93,7 @@ XGBoost Classifier
 
 ---
 
-# 🔍 Explainable AI
+# Explainable AI
 
 The prediction model is interpreted using SHAP.
 
@@ -105,7 +105,7 @@ Generated outputs include
 
 ---
 
-# 🧠 Decision Fusion
+# Decision Fusion
 
 The Decision Fusion Engine combines
 
@@ -124,7 +124,7 @@ Final Classes
 
 ---
 
-# 💡 Recommendation Engine
+# Recommendation Engine
 
 The system automatically generates recommendations such as
 
@@ -135,7 +135,7 @@ The system automatically generates recommendations such as
 
 ---
 
-# 📊 Dashboard
+# Dashboard
 
 The Streamlit dashboard includes
 <img width="1848" height="1007" alt="Screenshot From 2026-08-21 14-23-08" src="https://github.com/user-attachments/assets/0d81ce95-1efd-4e14-86af-01f6d3178672" />
@@ -157,7 +157,7 @@ The Streamlit dashboard includes
 ---
 
 
-# ⚙ Installation
+# Installation
 
 Clone the repository
 
@@ -199,7 +199,7 @@ python realtime_inference.py
 
 ---
 
-# 📈 Model Comparison
+# Model Comparison
 
 The project evaluates multiple machine learning models.
 
@@ -218,7 +218,7 @@ XGBoost was selected because it provides:
 
 ---
 
-# 📄 Research Contribution
+# Research Contribution
 
 ✔ Multi-modal health monitoring
 
@@ -236,7 +236,7 @@ XGBoost was selected because it provides:
 
 ---
 
-# 📌 Future Work
+# Future Work
 
 - Real ESP32 smart collar deployment
 - MQTT communication
@@ -247,7 +247,7 @@ XGBoost was selected because it provides:
 
 ---
 
-# 📚 Citation
+# Citation
 
 
 AI-Powered Multi-Modal Cattle Health Monitoring System
@@ -255,7 +255,7 @@ Computer Vision + Synthetic IoT + Explainable AI + Decision Fusion
 ```
 
 
-# 📜 License
+# License
 
 This project is released under the MIT License.
 
