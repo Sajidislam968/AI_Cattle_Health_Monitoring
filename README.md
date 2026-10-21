@@ -235,7 +235,7 @@ This project is released under the MIT License.
 
 **Sajid Islam**
 
-Department of Computer Science & Engineering
+Department of IoT and Robotics Engineering
 
 Research Interests
 
